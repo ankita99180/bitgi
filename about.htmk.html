@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="college.html"><img src="monogram.jfif"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">HOME</a></li>
+                    <li><a href="about.htmk.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog2.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="facility.html">FACILITIES</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+    <!---about us content-->
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>BIT: YOUR GATEWAY TO THE PROFESSIONAL WORLD!!</h1>
+                <p>Buddha Institute of Technology is approved by A.I.C.T.E. and affiliated to A.K.T.U. The programs of the institute are recognized all over India and abroad. It boasts of a strong Academic- Industrial interaction with high quality of research and consultancy and has close collaborative links with industries in the field of Automobile, Aerospace, Defence, Textile, Machine Tools, Software Development, Civil industry, Manufacturing Sector etc. <br>
+
+                    The academic building is a highly modern huge building with 5 floors hosting various labs, workshop, lecture theatres, tutorial rooms, offices etc… The main focus of the society is “knowledge based society needs youth for its innovations and also give a lead to the world.” Therefore, it was felt that an academic, technical and professional institute of global standards needs to be established at Gorakhpur. <br>
+                    
+                    BIT has established advanced ROBOTICS LAB accredited by AICRA & 3D Printing Lab which can meet the requirement of students who are willing to create innovative products.</p>
+                <a href="courses.html" class="red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="aboutus">
+            </div>
+        </div>
+    </section>
+   
+   
+    
+
+<!-----footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is the official website of Budhha Institute of Technology.</p>
+    <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Ankita Mishra</p>
+</section>
+
+
+
+
+
+
+
+    <!----JavaScript for Toggle Menu -->
+    <script>
+        var navLinks=document.getElementByID("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

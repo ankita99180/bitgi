@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="college.html"><img src="monogram.jfif"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">HOME</a></li>
+                    <li><a href="about.htmk.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog2.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="facility.html">FACILITIES</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    <!---courses-->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Here are the list of the courses we provide.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Graduation</h3>
+                    <p>Bachelor of Technology(B.TECH)<br>
+                        Bachelor of Pharmacy(B.PHARMA)<br>
+                        Bachelor of Business Adminitration(BBA) <br>
+                    Bachelor of Science(B.SC)<br>
+                    Bachelor of Commerce(B.COM)<br>
+                    Bachelor of Arts(BA) </p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                <p> Masters in Computer Science & Engineering(M.TECH-CSE) <br>
+                    Masters in Electronics & Communication Engineering(M.TECH-ECE)
+                </p>
+            </div>
+            <div class="course-col">
+                <h3>Diploma & Other Courses</h3>
+                <p>Diploma<br>
+                     Diploma in Pharmacy(D.PHARMA)<br>
+                    ITI <br>
+                    Hotel Management <br>
+                    Diploma in Physiotherapy(DPT)
+                </p>
+            </div>
+        </div>
+
+    </section>
+    <!---facilities-->
+    
+   
+   
+    
+
+<!-----footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is the official website of Budhha Institute of Technology.</p>
+    <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Ankita Mishra</p>
+</section>
+
+
+
+
+
+
+
+    <!----JavaScript for Toggle Menu -->
+    <script>
+        var navLinks=document.getElementByID("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

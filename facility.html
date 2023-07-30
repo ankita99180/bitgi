@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>college website design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="college.html"><img src="monogram.jfif"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="college.html">HOME</a></li>
+                    <li><a href="about.htmk.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog2.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="facility.html">FACILITIES</a></li>
+
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Facilities</h1>
+    </section>
+  
+    <!---facilities-->
+    <section class="facilities">
+        <h1>Our facilities</h1>
+        <p>
+            
+           
+            Institute has medical facility and has all the required first-aid medicines to aid the needy. The Institute has a tie up with Agrawal Orthopedic Hospital for providing medical facilities to all the staff and students. Ambulance service is also available that can be availed in case of emergency. <br>
+            BGI has a fully air-conditioned conference hall having state-of-the-art facilities. <br>
+            In the campus there are 3 spacious and air conditioned seminar halls equipped with audio-video aids. This seminar hall serves the purpose of conducting seminar, presentation and workshops for cocurricular, extra-curricular and placement activities. <br>
+
+        </p>
+             <div class="row">
+                <div class="facilities-col">
+                    <img src="library.jfif">
+                    <h3>Library</h3>
+                    <p>Institute provides the facility of e-library with the high- speed internet access and variety of e-journals, to the students. Institute also provides Open access facility to students. Library includes 23489 books and 2624 titles. </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="budhhabazar">
+                    <h3>Cafateria</h3>
+                    <p>Institute has extended the two canteen facilities to its students and staff which are located within the campus. Refreshments are available at the college canteen at affordable rates. </p>
+                </div>
+                <div class="facilities-col">
+                    <img src="class">
+                    <h3>Classrooms</h3>
+                    <p>Our classrooms are well ventilated, spacious and equipped with overhead and LCD projectors. The furniture used in classrooms is of un-compromised quality to enable students for 6 hours of comfortable and continuous learning.</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="hostel">
+                    <h3>Hostel</h3>
+                    <p>The Institute provides separate hostels for boys and girls. Hostels are provided with mess, communication and recreation facilities. The girls’ hostel is located in the campus itself. Hostel has a well equipped Gym with modern exercising gadgets to provide for the betterment of physical fitness of the students.</p>
+                </div>
+                
+             </div>
+    </section>
+    
+   
+   
+    
+
+<!-----footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>This is the official website of Budhha Institute of Technology.</p>
+    <div class="icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin-in"></i>
+        
+    </div>
+    <p>Made with <i class="fa-solid fa-heart"></i> by Ankita Mishra</p>
+</section>
+
+
+
+
+
+
+
+    <!----JavaScript for Toggle Menu -->
+    <script>
+        var navLinks=document.getElementByID("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
